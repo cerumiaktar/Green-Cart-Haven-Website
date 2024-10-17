@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <!-- This is Navbar -->
+        <section class="container mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-xl">
+                            <li><a class="text-[#0B6434]">Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Service</a></li>
+                            <li><a>Product</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <img class="w-[80px]" src="./images/Grocery_Logo 1.png" alt="">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-xl">
+                        <li><a class="text-[#0B6434]">Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Service</a></li>
+                        <li><a>Product</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end gap-2">
+                    <i class="fa-regular fa-bell p-3 rounded-full bg-[#679A7F54]"></i>
+                    <i class="fa-regular fa-user p-3 rounded-full bg-[#679A7F54]"></i>
+                </div>
+            </div>
+        </section>
+        <!--This is Hero Section-->
+        <section>
+            <!-- <div class="hero bg-[#0B6434] h-[408px]">
+                <div class="hero-content flex-col lg:flex-row-reverse">
+                    <img src="./images/Grocery Iteam 1.png"
+                        class="w-6/12 rounded-lg shadow-2xl" />
+                    <div>
+                        <h1 class="text-3xl w-8/12 font-bold mb-5 text-white">Nourish Your Body with Fresh, Quality Ingredients</h1>
+                        <button class="bg-white px-5 py-3 text-xl rounded-md">Learn More</button>
+                    </div>
+                </div>
+            </div> -->
+            <div>
+                <img src="./images/Banner.png" alt="">
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- This is Category Section -->
+        <section class="container mx-auto mt-10">
+            <h1 class="text-2xl font-medium text-center">Category</h1>
+            <div class="flex justify-between items-center mt-5">
+                <div>
+                    <img class="w-[154px]" src="./images/Image.png" alt="">
+                    <h2 class="text-center text-xl font-medium">VEGETABLES</h2>
+                </div>
+                <div>
+                    <img class="w-[154px]" src="./images/FRUIT.png" alt="">
+                    <h2 class="text-center text-xl font-medium">FRUITS</h2>
+                </div>
+                <div>
+                    <img class="w-[154px]" src="./images/FISH.png" alt="">
+                    <h2 class="text-center text-xl font-medium">FRESH FISH</h2>
+                </div>
+                <div>
+                    <img class="w-[154px]" src="./images/NUTS.png" alt="">
+                    <h2 class="text-center text-xl font-medium">FRESH NUTS</h2>
+                </div>
+                <div>
+                    <img class="w-[154px]" src="./images/MEAT.png" alt="">
+                    <h2 class="text-center text-xl font-medium">MEAT</h2>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
